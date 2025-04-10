@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Rotaract Club Event | RSCOE</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Rotaract Club of RSCOE</h1>
+    <p>Welcome to Our Annual Cultural Event – Avhan 2025!</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#schedule">Schedule</a>
+    <a href="#register">Register</a>
+  </nav>
+
+  <section id="about">
+    <h2>About the Club</h2>
+    <p>The Rotaract Club of RSCOE is dedicated to service and leadership. We host events that inspire, connect, and empower students.</p>
+  </section>
+
+  <section id="schedule">
+    <h2>Event Schedule</h2>
+    <button onclick="loadSchedule()">Load Schedule</button>
+    <ul id="event-list"></ul>
+  </section>
+
+  <section id="register">
+    <h2>Register Now</h2>
+    <form id="regForm">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Email" required />
+      <select name="event">
+        <option>Dance</option>
+        <option>Drama</option>
+        <option>Tech Quiz</option>
+      </select>
+      <button type="submit">Submit</button>
+    </form>
+    <p id="thanksMessage" style="display:none;">Thank you for registering!</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Rotaract Club, RSCOE</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

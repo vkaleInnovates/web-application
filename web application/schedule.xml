@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<events>
+  <event>
+    <name>Inauguration</name>
+    <time>10:00 AM</time>
+  </event>
+  <event>
+    <name>Dance Competition</name>
+    <time>11:30 AM</time>
+  </event>
+  <event>
+    <name>Drama</name>
+    <time>2:00 PM</time>
+  </event>
+  <event>
+    <name>Award Ceremony</name>
+    <time>4:00 PM</time>
+  </event>
+</events>
